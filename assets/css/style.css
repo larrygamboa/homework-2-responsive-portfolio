@@ -32,6 +32,7 @@ h2, h3, h4 {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #ebebeb;
 }
+
 .navbar-brand {
     font-size: 2.25rem;
 }
@@ -39,6 +40,12 @@ h2, h3, h4 {
 /* Main Content custom styles */
 #main-content .container {
     margin: 3rem auto;
+}
+
+/* Contact form styles */
+form {
+    background-color: #ebebeb;
+    padding: 75px 150px;
 }
 
 /* Footer custom styles */
@@ -63,6 +70,7 @@ footer a:hover {
     .navbar-light .navbar-toggler {
         border-color: #FFF;
     }
+
     .navbar-light .navbar-toggler-icon {
         -webkit-filter: invert(1);
         filter: invert(1);
@@ -94,5 +102,10 @@ footer a:hover {
     #main-content .container {
         margin: 0 auto;
         max-width: 100%;
+    }
+
+    /* Contact form styles */
+    form {
+        padding: 20px;
     }
 }
