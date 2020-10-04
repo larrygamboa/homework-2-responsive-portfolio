@@ -1,5 +1,6 @@
 body {
-    background: url("../images/background-pattern.jpg") #CCC top left;
+    /* background: url("../images/background-pattern.jpg") #CCC top left; */
+    background-color: whitesmoke;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.125rem;
 }
@@ -30,4 +31,32 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+/* For Large devices (desktops, 992x) */
+@media screen and (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        border-color: #FFF;
+    }
+    .navbar-light .navbar-toggler-icon {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
+}
+
+/* For Medium devices (tablets, 768px) */
+@media screen and (max-width: 768px) {
+    #main-content .container {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+/* For Small devices (phones, 576px) */
+@media screen and (max-width: 576px) {
+    #main-content .container {
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
