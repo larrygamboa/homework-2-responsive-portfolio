@@ -16,11 +16,16 @@ body {
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
-    color: #333;
+    color: #ebebeb;
+    text-decoration: underline;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ebebeb;
 }
 
 /* Main Content custom styles */
@@ -39,6 +44,7 @@ footer a {
 }
 
 footer a:hover {
+    color: #ebebeb;
     text-decoration: underline;
 }
 
