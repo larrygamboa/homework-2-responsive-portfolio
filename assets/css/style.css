@@ -1,0 +1,33 @@
+body {
+    background: url("../images/background-pattern.jpg") #CCC top left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+
+/* Nav Bar styles */
+.navbar h1 {
+    font-family: 'Sarala', sans-serif;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FFF;
+}
+
+/* Main Content styles */
+#main-content .container {
+    margin: 3rem auto;
+}
+
+/* Footer styles */
+footer p, footer a, footer a:hover {
+    color: #FFF;
+}
+
+footer a {
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
