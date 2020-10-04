@@ -1,6 +1,6 @@
 body {
-    /* background: url("../images/background-pattern.jpg") #CCC top left; */
-    background-color: whitesmoke;
+    background: url("../images/background-image.jpg") #CCC no-repeat center;
+    background-size: cover;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.125rem;
 }
