@@ -89,6 +89,9 @@ footer a:hover {
         margin: 0 auto;
         max-width: 100%;
     }
+    .ul-mb-none {
+        margin-bottom: 0;
+    }
 }
 
 /* For Small devices (phones, 576px) */
