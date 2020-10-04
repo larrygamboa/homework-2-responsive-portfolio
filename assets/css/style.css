@@ -5,6 +5,10 @@ body {
     font-size: 1.125rem;
 }
 
+.bg-forest-green {
+    background-color: #228B22;
+}
+
 
 /* Nav Bar custom styles */
 .navbar h1 {
