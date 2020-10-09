@@ -5,7 +5,7 @@ responsive portfolio using Bootstrap
 
 **GitHub repository**: https://github.com/larrygamboa/homework-2-responsive-portfolio
 
-**Screenshot link**: 
+**Screenshot link**: https://github.com/larrygamboa/homework-2-responsive-portfolio/blob/main/assets/images/hw2-bootstrap-portfolio.png
 
 
 ## Purpose
